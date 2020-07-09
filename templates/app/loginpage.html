@@ -1,0 +1,10 @@
+{% extends 'common.html' %}
+{% load static %}
+{% block common %}
+{% include 'navbar.html' %}
+    <table align="center">
+       {{ data }}
+      <tr align="center"><th colspan="2"><button type="submit"class="btn btn-success">Login</button></th></tr>
+    </table>
+
+{% endblock %}
